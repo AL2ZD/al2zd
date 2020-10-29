@@ -28,7 +28,9 @@ body {
   font-family: "Rubik", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #777; }
+  color: #777; 
+  direction:rtl;
+}
 
 * {
   margin: 0;
