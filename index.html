@@ -1,131 +1,146 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-
-    <!--====== Required meta tags ======-->
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!--====== Title ======-->
-    <title>AL-Izd AL-Saidi</title>
-
-    <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
-
-    <!--====== Bootstrap css ======-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
-    <!--====== Line Icons css ======-->
-    <link rel="stylesheet" href="assets/css/LineIcons.css">
-
-    <!--====== Slick css ======-->
-    <link rel="stylesheet" href="assets/css/cb-slider.css">
-    
-    <!--====== Animate css ======-->
-    <link rel="stylesheet" href="assets/css/animate.css">
-
-    <!--====== Default css ======-->
-    <link rel="stylesheet" href="assets/css/default.css">
-
-    <!--====== Style css ======-->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-
-</head>
-
-<body>
-    
-    <!--====== PRELOADER PART START ======-->
-
-    <div class="preloader">
-        <div class="loader_34">
-            <div class="ytp-spinner">
-                <div class="ytp-spinner-container">
-                    <div class="ytp-spinner-rotator">
-                        <div class="ytp-spinner-left">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                        <div class="ytp-spinner-right">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--====== PRELOADER ENDS START ======-->
-
-    <!--====== HEADER PART START ======-->
-
-    <header class="header-area">
-        <ul class="cb-slideshow">
-            <li><span>Image 01</span></li>
-            <li><span>Image 02</span></li>
-            <li><span>Image 03</span></li>
-            <li><span>Image 04</span></li>
-            <li><span>Image 05</span></li>
-            <li><span>Image 06</span></li>
-        </ul>
-        <div class="header-card" >
-            <div class="header-card-wrapper wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.2s">
-                <div class="card-header bg_cover" style="background-image: url(assets/images/card-bg.jpg)"></div> <!-- card-header -->
-                <div class="card-profile">
-                    <img src="assets/images/profile.jpg" alt="Profile">
-                </div> <!-- card-profile -->
-                <div class="card-content text-center">
-                    <h3 class="card-title">اﻷزد السعيدي</h3>
-                    <p class="text"></p>بسيط جداً ومحب للتقنية وتصميم وأرغب دائماً بأفادة اﻵخرين كل ماكان لي متسع من الوقت. أمل أن أكون سبب تطوير هذه الأرض التى كانت السبب  في ما علية الأن.</p>
-           
-                </div> <!-- card-content -->
-
-                <div class="card-social text-center">
-                    <ul>
-                        
-                        
-                        <li><a href="https://instagram.com/al2zd"><i class="lni-instagram-original"></i></a></li>
-                        
-                    </ul>
-                    
-                </div> <!-- card-social -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-Izd</title>
+        <title> Alazd</title>
+        <!-- css start-->
+        <style type="text/css" media="all">
+        :root{
+            --titleh: #F0690F;
+            --coheader: #97BB97
+        }
+            #title{
+                color: #0f0f0f;
+                text-align: center;
+                font-size: 20px;
+            }
+            html{
+                background-color: #151515;
+                width: 90%;
+                margin: 0 auto ;
+                font-family: Hack, "Courier New", Courier, monospace;
+            
+                /*dark mode*/
+             /*   filter: invert(1) hue-rotate(180deg); */
+            }
+            .title{
+                background-color: #97BB97;
                 
-                
-                
-                </div> <!-- header-card -->
-        </div> <!-- header-card -->
+            }
+            h1,h2,h3{
+                color: var(--titleh);
+            }
+            #definition1,.infromtion{
+                color: #fff;
+                margin-top: -20px;
+            }
+            #signature,.signature1 {
+                color: #68FC06;
+                text-align: center;
+                font-size: small;
+                padding: 3%;
+            }
+            #signature2{
+                margin-top: -20px;
+            }
+            #signature3{
+                margin-top: -15px;
+            }
+            #title1,#definition1,.infromtion{
+                text-align: right;
+                direction: rtl;
+            }
+            
+            .semiCircle {
+                position: relative; 
+                background: #97BB97;
+                height: 76px;
+           /*     filter: invert(1) hue-rotate(180deg); */
+            }
+            .semiCircle::before {
+                position: absolute; 
+                content: ''; 
+                left: 50%;
+                z-index: 10;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+        /*     background: inherit;  */
+                transform: translateX(-50%) translateY(50%);
+                bottom: 0px;
+            }
+            .profile{
+                width: 80px;
+                float: center;
+                margin-left: 140px;
+                border: solid 7px;
+                border-radius: 50%;
+                color:var(--coheader);
+                margin-top: -15px;
+            }
+            
+            /* mobel*/
+            @media screen and (max-width: 680px) {
+                .bady{
+                    width: 98%;
+                }
+                }
+            
+        </style>
+        <!--css end-->
+        <!--js start-->
+        <script>
+        </script>
+        <!--js end-->
+    </head>
+    <header class="title">
+        <section class="semiCircle">
+         <h1 id="title">Hilosat</h1>
+         <img class="profile" src="profile.png" alt="profile" />
+         <nav class="">
+             <ul>
+                 <li><a></a></li>
+                 <li></li>
+             </ul>
+         </nav>
+         </section>
     </header>
-
-    <!--====== HEADER PART ENDS ======-->
-
-    <!--====== MODAL CONTACT PART ENDS ======-->
-
-    <!-- Modal -->
-     
-    <!--====== MODAL CONTACT PART ENDS ======-->
-
-
-
-    <!--====== jquery js ======-->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-
-    <!--====== Bootstrap js ======-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-
-    <!--====== Slick js ======-->
-    <script src="assets/js/slick.min.js"></script>
-
-
-    <!--====== WOW js ======-->
-    <script src="assets/js/wow.min.js"></script>
-
-    <!--====== Main js ======-->
-    <script src="assets/js/main.js"></script>
-
-</body>
-
+    <bady>
+        
+    <div>
+        <h2 id="title1" style="margin-top:50px;">نبذة بسيطة عني</h2>
+        <p id="definition1">بسيط جداً ومحب للتقنية وتصميم وأرغب دائماً بأفادة اﻵخرين كل ماكان لي متسع من الوقت. أمل أن أكون سبب في تطوير هذه الأرض التى كانت السبب ماعلية اﻷن. ولا أحب الرسميات والتكلف في المظاهر والحديث.</p>
+    </div>
+    <div class="infromtion">
+        <h2 id="title1">معلوماتي</h2>
+        <div style="margin-top:-20px;">
+            <b>الاسم:</b>
+الأزد حميد السعيدي
+            </div>
+            <div style="direction: rtl;">
+<b>البريد:</b>
+alizdhumaid@gmail.com
+</div>
+<div>
+<b>سنة الميلاد:</b> 1998
+</div>
+<div><b>دولة:</b>&nbsp;سلطنة عمان</div>
+<div><b>محافظة:</b>&nbsp;شمال الباطنة</div>
+<div><b>ولاية:</b>&nbsp;الخابورة</div>
+</div>
+    </div>
+     <div>
+        <h2 id="title1"></h2>
+        <p id="definition1"></p>
+    </div>
+    <div id="signature">Design of alazd :)</div>
+    <div class="signature1">
+        <p id="signature2">Thanks for visiting my page</p>
+        <p id="signature3">¯\_(ツ)_/¯ </p>
+    </div>
+    </body>
+    
 </html>
