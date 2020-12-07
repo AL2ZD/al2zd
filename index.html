@@ -87,6 +87,27 @@
                 .bady{
                     width: 98%;
                 }
+                .semiCircle::before {
+                position: absolute; 
+                content: ''; 
+                left: 50%;
+                z-index: 10;
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+        /*     background: inherit;  */
+                transform: translateX(-50%) translateY(50%);
+                bottom: 0px;
+            }
+            .profile{
+                width: 80px;
+                float: center;
+                margin-left: 350px;
+                border: solid 7px;
+                border-radius: 50%;
+                color:var(--coheader);
+                margin-top: -15px;
+            }
                 }
             
         </style>
