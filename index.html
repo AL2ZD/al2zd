@@ -105,6 +105,35 @@
                font-size: 10px; 
                
             }
+@mixin transition--smooth{
+  transition: 0.125s ease-in-out;
+  -webkit-transition: 0.125s ease-in-out;
+  -moz-transition: 0.125s ease-in-out;
+}
+
+:root{
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #EEEEEE;
+}
+
+// ---------- C O N T A C T - C A R D ----------
+
             /* mobel */
             @media screen and (max-width: 680px) {
                 .bady{
@@ -170,9 +199,22 @@ alizdhumaid@gmail.com
     </section>
 </article>
 <aside class="aside">
-  <div style="color: #fff;">
-    <p>hdhdhdhdnndjdjdjdjdjjdhdjdhhfhfhfhfhdheoe djdidjbd dudndbudbd shhsdhh</p>  
-  </div>  
+    <div class="contact-card">
+      <div class="contact-card__header-image">
+        <div class="contact-card__avatar"></div>
+      </div>
+    	<p class="contact-card__name">Callum Brown</p>
+      <ul>>
+        <li class="contact-card__link contact-card__link--email"><a title="Email Callum Brown" href="mailto:">&#128241 cabrown96@live.com</a></li>
+        <li class="contact-card__link contact-card__link--mobile"><a title="Call Callum Brown" href="tel:">&#128231 +1 123-456-7890</a></li>
+      </ul>
+    	<ul class="contact-card__footer">
+        <li class="contact-card__footer__link contact-card__footer__link--twitter"><a title="Link to Callum Brown's Twitter profile" href=""><i class="fa fa-twitter"></i></a></li>
+        <li class="contact-card__footer__link contact-card__footer__link--linkedin"><a title="Link to Callum Brown's LinkedIn profile" href=""><i class="fa fa-linkedin"></i></a></li>
+        <li class="contact-card__footer__link contact-card__footer__link--codepen"><a title="Link to Callum Brown's Codepen profile" href=""><i class="fa fa-codepen"></i></a></li>
+        <li class="contact-card__footer__link contact-card__footer__link--dribbble"><a title="Link to Callum Brown's Dribbble profile" href=""><i class="fa fa-dribbble"></i></a></li>
+    	</ul>
+    </div>
 </aside>
 <!-- footer s -->
 <footer class="footer" style="width:100%;">
